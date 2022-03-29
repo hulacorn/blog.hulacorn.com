@@ -1,5 +1,7 @@
 # 11TA - 11ty, TailwindCSS, & Alpine.js Template
 
+trigger ga
+
 > **UPDATE v2.0.0 - Breaking Changes**
 > In order to provide scalability and cleaner frontmatter controls in current Posts _(and upcoming Products)_ collections, the Frontmatter keys were updated which required updates to `/src/_includes/components/*.njk`, `tailwind.config.js`, and other templates.
 > I apologize for the inconvenience.
