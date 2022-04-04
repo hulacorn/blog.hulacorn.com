@@ -1,0 +1,32 @@
+---
+title: Blog
+date: 2020-08-05
+description: The Posts List display is controled in /src/_data/structure.js and ships with 4 options.
+layout: page
+seo:
+  title: For Web development, Operations and Management
+  description: 
+pagination:
+  data: collections.post 
+  size: 12
+  reverse: true
+  alias: posts
+---
+
+<h2 class="mt-6">All Posts</h2>
+<hr class="mt-8">
+
+{% set postslist = posts | reverse %}
+
+{# 
+  Allows a user to easily change the Tag List Style.
+  Please see instructions in /src/_data/structure.js >>> ===== Post List Style Options =====
+#}
+{% set postlist = ['components/', structure.postListStyle, '.njk'] %}
+{% include postlist | join %}
+
+{# ===== Paginate based on "size" frontmatter value above =====  #}
+{# Don't even include the pagination component if there are fewer posts than needed to paginate  #}
+{% if collections.post.length > pagination.size %}
+  {% include "components/pagination.njk" %}
+{% endif %}
