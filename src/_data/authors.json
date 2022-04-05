@@ -1,5 +1,38 @@
 [
 	{
+		"slug": "podge-obrien",
+		"name": "Podge O'Brien",
+		"image": "/assets/images/authors/podge.png",
+		"bio": "This is my Bio",
+		"companyWebsites": [
+			{
+				"label": "Hulacorn.com",
+				"url": "https://www.hulacorn.com",
+				"email": "padraig@hulacorn.com"
+			}
+		],
+		"personalWebsites": [
+			{
+				"label": "padraigobrien.com",
+				"url": "https://www.padraigobrien.com"
+			}
+		],
+		"socialWebsites": [
+			{
+				"label": "github",
+				"url": "https://github.com/padraigobrien"
+			},
+			{
+				"label": "linkedin",
+				"url": "https://linkedin.com/in/padraigobrien"
+			},
+			{
+				"label": "twitter",
+				"url": "https://twitter.com/padraigobrien"
+			}
+		]
+	},
+	{
 		"slug": "shane-robinson",
 		"name": "Shane Robinson",
 		"image": "/assets/images/authors/shane-robinson.jpg",
@@ -122,4 +155,3 @@
 		]
 	}
 ]
-
