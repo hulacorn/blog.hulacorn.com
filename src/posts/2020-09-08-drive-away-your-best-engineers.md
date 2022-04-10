@@ -1,6 +1,6 @@
 ---
 title: How to drive away your best engineers.
-date: 2021-09-08T19:30:00
+date: 2020-09-08T19:30:00
 author: podge-obrien
 excerpt: Tenures are at an all-time low in the software industry.
 draft:

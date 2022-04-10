@@ -1,6 +1,6 @@
 ---
 title: Opening a new office for a USA based company.
-date: 2021-11-08T19:30:00
+date: 2020-11-08T19:30:00
 author: podge-obrien
 excerpt: What i learned from being the first hire in a office
 draft:
