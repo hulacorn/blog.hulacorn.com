@@ -7,7 +7,7 @@ draft:
 seo:
   title:
   description:
-  image: 2020/09/chasing.jpg
+  image: 2020/09/rushhour.jpg
 images: # relative to /src/assets/images/
   feature: 2020/09/rushhour.jpg
   thumb: 2020/09/rushhour.jpg

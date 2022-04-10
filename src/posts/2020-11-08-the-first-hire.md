@@ -1,21 +1,20 @@
 ---
-title: Opening a new office for a USA based company.
-date: 2020-11-08T19:30:00
+title: Open a new office for a USA based company.
+date: 2020-11-08T18:30:00
 author: podge-obrien
 excerpt: What i learned from being the first hire in a office
 draft:
 seo:
   title:
   description:
-  image: 2020/09/office.jpg
+  image: 2020/11/office.jpg
 images: # relative to /src/assets/images/
-  feature: 2020/09/officelarge.jpg
-  thumb: 2020/09/office.jpg
+  feature: 2020/11/officelarge.jpg
+  thumb: 2020/11/office.jpg
   slide:
 tags:
-  - startup
-  - expansion
   - management
+  - retention
 ---
 
 # Introduction
