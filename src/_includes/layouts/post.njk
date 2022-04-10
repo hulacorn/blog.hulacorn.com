@@ -14,7 +14,7 @@ layout: base
       {# Only display the Author Block if there is a value for "author" in Post Frontmatter #}
       {% if author %}
         {% set postAuthor = authors | getAuthor(author) %}
-        by <a class="hover:underline" href="/authors/{{ author }}/">{{ postAuthor.name }}</a>
+         <a class="hover:underline" href="/authors/{{ author }}/">{{ postAuthor.name }}</a>
       {% endif %}
     {% endif %}
 

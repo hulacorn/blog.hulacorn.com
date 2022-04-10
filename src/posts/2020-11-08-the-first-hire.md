@@ -17,10 +17,13 @@ tags:
   - retention
 ---
 
+<br/>
+
 # Introduction
 
 I was the first hire for two different US multinational companies in Ireland.
 One went amazingly well. One was an absolute disaster. Here is some of the things I learned.
+<br/>
 
 # What to do
 
@@ -41,6 +44,7 @@ Once a team has a mission and metrics, Give engineers control over their tech st
 Once there are a few initial hires on board, they have a mission, metrics, admin rights. Ensure that you seed a few engineers for your head office in the team. They will learn about the company culture and share any tribal knowledge between folk.
 
 Please do not treat them like an outsourcing location. They are part of your company. Give them the exact work you would to any team that exists in your head office?
+<br/>
 
 # Epilogue
 
