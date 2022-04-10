@@ -1,4 +1,4 @@
-# 11TA - 11ty, TailwindCSS, & Alpine.js Template
+<!-- # 11TA - 11ty, TailwindCSS, & Alpine.js Template
 
 > **UPDATE v2.0.0 - Breaking Changes**
 > In order to provide scalability and cleaner frontmatter controls in current Posts _(and upcoming Products)_ collections, the Frontmatter keys were updated which required updates to `/src/_includes/components/*.njk`, `tailwind.config.js`, and other templates.
@@ -50,4 +50,20 @@ To automatically deploy this Template to [Netlify for free hosting](https://www.
 - Easy add Collections: Projects, Services, Jobs, etc.
 - "Themed" versions for Portfolios/Creatives, Agencies, Digital Gardens, etc.
 - Fully documented migration of Wordpress to 11ty
-- [Snipcart](https://snipcart.com/) integration
+- [Snipcart](https://snipcart.com/) integration -->
+
+### To get starteed, run the following commands:
+
+```
+npm install
+npm run serve
+```
+
+### To deploy the site
+
+```
+git add .
+git commit -m "Update"
+git tag -a 0.0.x
+git push --tags
+```

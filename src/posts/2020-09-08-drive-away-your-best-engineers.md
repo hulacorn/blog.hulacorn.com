@@ -9,8 +9,8 @@ seo:
   description:
   image: 2020/09/chasing.jpg
 images: # relative to /src/assets/images/
-  feature:
-  thumb: 2020/09/chasing.jpg
+  feature: 2020/09/rushhour.jpg
+  thumb: 2020/09/rushhour.jpg
   slide:
 tags:
   - management
