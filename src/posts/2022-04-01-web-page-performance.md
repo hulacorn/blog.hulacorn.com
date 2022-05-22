@@ -1,6 +1,6 @@
 ---
 title: How to measure your website performance
-date: 2022-04-08T19:30:00
+date: 2022-04-01T19:30:00
 author: podge-obrien
 excerpt: Measuring performance using Core Web Vitals and Datadog Real User monitoring feature.
 draft:
@@ -14,8 +14,9 @@ images: # relative to /src/assets/images/
   thumb: 2022/04/performance.jpg
   slide:
 tags:
-  - frontend
-  - monitoring
+  - Frontend
+  - Monitoring
+  - Performance
 
 ---
 <br>
@@ -39,6 +40,7 @@ Core Web Vitals are the subset of Web Vitals that apply to all web pages.
 
 - The perceived load speed using Largest Contentful Paint(LCP). The LCP  metric reports the render time of the largest image or text block visible within the viewport relative to when the page first started loading. Sites should strive to have the Largest Contentful Paint of 2.5 seconds or less. On votes.hulacorn.com has a maximum of 2.56 seconds in Mar, eeek.
 <br> ![LCP](../../../../assets/images/2022/04/LCP.jpg)
+
 
 
 - The first time the user interacts with the page to the time when the browser can begin handling that interaction. The time is called the First Input Delay(FID). We should note that the FID measures the delay in processing, not the actual processing of an event. The current best thinking for FID is less than 100 milliseconds. A common cause of a high FID is because a large JS is being loaded, and the main thread is occupied with processing this file. The FID, on votes.hulacorn.com is well below the 100 milliseconds threshold. 

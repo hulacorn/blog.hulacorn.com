@@ -9,7 +9,14 @@
             {% svg "logo-mobile", "fill-current w-16 hover:{{ colors.logoCustom.hover or colors.logoDefault.hover }}", "The Mobile Logo" %}
           </a>
           {# large logo hidden on small, block on md #}
-          <a aria-label="Desktop Logo" href="/" class="hidden md:block {{ colors.logoCustom.desktop or colors.logoDefault.desktop }} hover:{{ colors.logoCustom.hover or colors.logoDefault.hover }}" alt="Desktop Logo">
+          <a aria-label="Desktop Logo" href="/" class="hidden md:h-20 md:py-4 md:block {{ colors.logoCustom.desktop or colors.logoDefault.desktop }} hover:{{ colors.logoCustom.hover or colors.logoDefault.hover }}" alt="Desktop Logo">
+             <img
+                              className="object-cover "
+                              height="175"
+                              width="175"
+                              src="../assets/images/site/logo.png"
+                              alt=""
+                            />
             {% svg "logo", "fill-current h-8 hover:{{ colors.logoCustom.hover or colors.logoDefault.hover }}", "The Logo" %}
           </a>
         </div>

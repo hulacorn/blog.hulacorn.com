@@ -14,8 +14,9 @@ images: # relative to /src/assets/images/
   thumb: 2022/04/marketing.jpg
   slide:
 tags:
-  - startup
-  - marketing
+  - Startup
+  - Mrketing
+  - Indie hacker
 
 ---
 <br>

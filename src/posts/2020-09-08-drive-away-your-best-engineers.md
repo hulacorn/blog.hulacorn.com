@@ -13,8 +13,8 @@ images: # relative to /src/assets/images/
   thumb: 2020/09/rushhour.jpg
   slide:
 tags:
-  - management
-  - retention
+  - Management
+  - Retention
 ---
 
 # Introduction

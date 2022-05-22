@@ -13,9 +13,10 @@ images: # relative to /src/assets/images/
   thumb: 2020/09/office.jpg
   slide:
 tags:
-  - startup
-  - expansion
-  - management
+  - Startup
+  - Expansion
+  - Management
+  - Hiring
 ---
 
 # Introduction
