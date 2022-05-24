@@ -27,13 +27,6 @@
                 </a>
               </div>
 
-              {# Found the TagPills are too much for this layout. Uncomment them below if you want to display them. #}
-              {# <div class="flex-1 bg-gray-100">
-                {% if structure.g_showTagPills %}
-                  {% set tags = post.data.tags %}
-                  {% include "components/tagpills.njk" %}
-                {% endif %}
-              </div> #}
 
               {# Used conditionals here to keep control at the template levels rather than at the component level.  #}
               {# Display the Author block if structure.g_showAuthors is true (default) #}
@@ -45,6 +38,13 @@
                 {% endif %}
               {% endif %}
             </div>
+               {# Found the TagPills are too much for this layout. Uncomment them below if you want to display them. #}
+              <div class="flex-1 bg-white">
+                {% if structure.g_showTagPills %}
+                  {% set tags = post.data.tags %}
+                  {% include "components/tagpills.njk" %}
+                {% endif %}
+              </div>
           </div>
 
         {% endfor %}

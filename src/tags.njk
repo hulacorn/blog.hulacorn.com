@@ -13,8 +13,8 @@ eleventyComputed:
   title: Entries Tagged "{{ tag }}”
 ---
 
-<h3 class="mt-6">Setting Tags List Display</h3>
-
+{# <h3 class="mt-6">Setting Tags List Display</h3> #}
+{# 
 <p>
 The Tags List display below is controled in <code>/src/_data/structure.js</code> in the same way as on <a href="/blog">the blog list</a> and ships with 4 Component options by default in the <strong>postListStyle</strong> setting. Full instructions are in the comments in <code>/src/_data/structure.js:103</code>.
 </p>
@@ -23,7 +23,7 @@ The Tags List display below is controled in <code>/src/_data/structure.js</code>
 Currently setting = <code>tagListStyle: <em>{{ structure.tagListStyle or structure.postListStyle }}</em></code>
 </p>
 
-<p>This template = <code>/src/tags.njk</code></p>
+<p>This template = <code>/src/tags.njk</code></p> #}
 
 <hr class="mt-8">
 
@@ -46,7 +46,7 @@ Currently setting = <code>tagListStyle: <em>{{ structure.tagListStyle or structu
 {% include postlist | join %}
 
 <div class="border-t border-gray-300">
-<h4 class="{{ colors.tagPillCustom.text or colors.tagPillDefault.text }}">All Tags:</h4>
+{# <h4 class="{{ colors.tagPillCustom.text or colors.tagPillDefault.text }}">All Tags:</h4> #}
 {% set tags = collections.tagList %}
 {% include "components/tagpills.njk" %}
 </div>
