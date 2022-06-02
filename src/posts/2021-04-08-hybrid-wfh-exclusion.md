@@ -7,11 +7,11 @@ draft:
 seo:
   title:
   description:
-  image: 2022/04/marketing.jpg
+  image: 2022/04/inclusive.jpg
 images: # relative to /src/assets/images/
-  feature: 2022/04/marketing.jpg
+  feature: 2022/04/inclusive.jpg
   lcp: 2022/04/lcp.png
-  thumb: 2022/04/marketing.jpg
+  thumb: 2022/04/inclusive.jpg
   slide:
 tags:
   - Startup
