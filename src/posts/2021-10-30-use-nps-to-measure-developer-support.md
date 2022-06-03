@@ -14,7 +14,7 @@ images: # relative to /src/assets/images/
   slide:
 tags:
   - Software engineering
-  - no code :-)
+  - no code
 
 
 ---
