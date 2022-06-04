@@ -1,5 +1,5 @@
 ---
-title: Python, Counting Elemtents 
+title: Python, Counting Elements 
 date: 2022-06-06T17:44:03.000Z
 excerpt: short video on counting elements using a dictionary
 author: roberto-gambuzzi
