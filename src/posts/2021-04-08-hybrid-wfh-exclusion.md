@@ -5,8 +5,8 @@ author: podge-obrien
 excerpt: I worked in a startup a few years back that had some remote staff and some onsite staff, this is what we learned from experimenting with inclusion and collaboration 
 draft:
 seo:
-  title:
-  description:
+  title: Creating an inclusive remote and office work environment
+  description: I worked in a startup a few years back that had some remote staff and some onsite staff, this is what we learned from experimenting with inclusion and collaboration 
   image: 2022/04/inclusive.jpg
 images: # relative to /src/assets/images/
   feature: 2022/04/inclusive.jpg
@@ -16,7 +16,7 @@ images: # relative to /src/assets/images/
 tags:
   - Startup
   - Mrketing
-  - Indie hacker
+  - Indie-hacker
 
 ---
 

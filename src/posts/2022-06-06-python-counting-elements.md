@@ -5,8 +5,8 @@ excerpt: short video on counting elements using a dictionary
 author: roberto-gambuzzi
 draft: 
 seo:
-  title:
-  description:
+  title: Python, Counting Elements 
+  description: short video on counting elements using a dictionary
   image: 2022/06/python.jpg
 images: # relative to /src/assets/images/
   feature:

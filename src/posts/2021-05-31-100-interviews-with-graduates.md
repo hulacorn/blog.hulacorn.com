@@ -5,8 +5,8 @@ author: podge-obrien
 excerpt: "I spent about 100 hours talking with software engineering graduates who found it difficult to find jobs in the last 18 months" # Quotation marks allow colons, semicolons, etc.
 draft:
 seo:
-  title:
-  description:
+  title: What i learned from doing 100 interviews with graduates.
+  description: I spent about 100 hours talking with software engineering graduates who found it difficult to find jobs in the last 18 months
   image: 2021/05/graduates.jpg
 images: # relative to /src/assets/images/
   feature: 2021/05/graduates.jpg

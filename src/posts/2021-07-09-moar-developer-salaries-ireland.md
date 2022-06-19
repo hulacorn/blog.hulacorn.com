@@ -2,11 +2,11 @@
 title: Scatter plot of salary data of developers in Dublin, Ireland
 date: 2021-07-09T19:30:00
 author: podge-obrien
-excerpt: Someone asked for more detail than just the ranges in my previous post, so I produced a scatter plot for 2020 data." # Quotation marks allow colons, semicolons, etc.
+excerpt: Someone asked for more detail than just the ranges in my previous post, so I produced a scatter plot for 2020 data. # Quotation marks allow colons, semicolons, etc.
 draft:
 seo:
-  title:
-  description:
+  title: Scatter plot of salary data of developers in Dublin, Ireland
+  description: Someone asked for more detail than just the ranges in my previous post, so I produced a scatter plot for 2020 data.
   image: 2021/09/trend.jpg
 images: # relative to /src/assets/images/
   feature: 2021/09/trend.jpg

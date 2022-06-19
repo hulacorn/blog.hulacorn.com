@@ -5,8 +5,8 @@ author: podge-obrien
 excerpt: What i learned from being the first hire in a office
 draft:
 seo:
-  title:
-  description:
+  title: Opening a new office for a USA based company.
+  description: What i learned from being the first hire in a office.
   image: 2020/09/office.jpg
 images: # relative to /src/assets/images/
   feature: 2020/09/officelarge.jpg

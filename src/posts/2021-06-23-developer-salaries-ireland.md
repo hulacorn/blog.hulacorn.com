@@ -5,8 +5,8 @@ author: podge-obrien
 excerpt: I have done over 1000 interviews in the last few years. Here is the answer to the question of what are your salary expectations?
 draft:
 seo:
-  title:
-  description:
+  title: What are your salary expectations?
+  description: I have done over 1000 interviews in the last few years. Here is the answer to the question of what are your salary expectations?
   image: 2021/09/trend.jpg
 images: # relative to /src/assets/images/
   feature: 2021/09/trend.jpg

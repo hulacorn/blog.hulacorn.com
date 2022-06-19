@@ -5,15 +5,15 @@ author: podge-obrien
 excerpt: Optimising ways of working may be cheaper than creating a whole platform
 draft:
 seo:
-  title:
-  description:
+  title: Internal developer platform
+  description:  Optimising ways of working may be cheaper than creating a whole platform
   image: 2022/04/platform.jpg
 images: # relative to /src/assets/images/
   feature: 2022/04/platform.jpg
   thumb: 2022/04/platform.jpg
   slide:
 tags:
-  - Internal Developer platform
+  - Internal-developer-platform
   - Producivity
 
 ---

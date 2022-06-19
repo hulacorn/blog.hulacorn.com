@@ -5,8 +5,8 @@ author: podge-obrien
 description: Have you taken a job only to realise on day one that the answers were aspirational?
 draft:
 seo:
-  title:
-  description:
+  title: Are your future employers lying to you?
+  description: Have you taken a job only to realise on day one that the answers were aspirational?
   image: 2021/05/interview.jpg
 images: # relative to /src/assets/images/
   feature: 2021/05/interview.jpg
@@ -14,7 +14,7 @@ images: # relative to /src/assets/images/
   slide:
 tags:
   - Graduate
-  - First Job
+  - First-job
   - Career
 
 ---

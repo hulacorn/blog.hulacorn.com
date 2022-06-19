@@ -5,8 +5,8 @@ author: podge-obrien
 excerpt: A shorter interview process leads to a better candidate experience.
 draft:
 seo:
-  title:
-  description:
+  title: Simplifying your interview process will get you more applicants.
+  description: A shorter interview process leads to a better candidate experience.
   image: 2021/09/interview.jpg
 images: # relative to /src/assets/images/
   feature: 2021/09/interview.jpg

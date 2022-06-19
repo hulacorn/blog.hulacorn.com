@@ -5,16 +5,16 @@ author: podge-obrien
 excerpt: Sometimes less is more when it comes to code
 draft:
 seo:
-  title:
-  description:
+  title: Not all problems require a software solution
+  description: Sometimes less is more when it comes to code
   image: 2021/10/code.jpg
 images: # relative to /src/assets/images/
   feature: 2021/10/code.jpg
   thumb: 2021/10/code.jpg
   slide:
 tags:
-  - Software engineering
-  - no code
+  - Software-engineering
+  - No-code
 
 
 ---

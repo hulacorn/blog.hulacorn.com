@@ -5,8 +5,8 @@ author: podge-obrien
 excerpt: Tenures are at an all-time low in the software industry.
 draft:
 seo:
-  title:
-  description:
+  title: How to drive away your best engineers.
+  description: Tenures are at an all-time low in the software industry.
   image: 2020/09/chasing.jpg
 images: # relative to /src/assets/images/
   feature: 2020/09/rushhour.jpg

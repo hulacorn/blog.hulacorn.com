@@ -5,17 +5,17 @@ author: podge-obrien
 excerpt: Does it live up to the promise that it allows you to make changes and test your Lambda functions live?
 draft:
 seo:
-  title:
-  description:
+  title: Serverless Stack Guide Review
+  description: Does it live up to the promise that it allows you to make changes and test your Lambda functions live?
   image: 2021/12/guide.jpg
 images: # relative to /src/assets/images/
   feature: 2021/12/guide.jpg
   thumb: 2021/12/guide.jpg
   slide:
 tags:
-  - Serverless Stack
-  - Build in public
-  - Software engineering
+  - Serverless-stack
+  - Build-in-public
+  - Software-engineering
   - Startup
 
 ---

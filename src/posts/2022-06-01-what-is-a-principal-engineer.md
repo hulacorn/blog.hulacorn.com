@@ -9,7 +9,6 @@ seo:
   description:
   image: 2022/06/senior-engineer.jpg
 images: # relative to /src/assets/images/
-  feature: 2022/06/senior-engineer.jpg
   lcp: 2022/06/senior-engineer.jpg
   thumb: 2022/06/senior-engineer.jpg
   slide:

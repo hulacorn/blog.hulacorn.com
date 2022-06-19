@@ -5,8 +5,8 @@ author: podge-obrien
 excerpt: Measure the support your developers have for your company
 draft:
 seo:
-  title:
-  description:
+  title: Developer Net promotor score
+  description: Measure the support your developers have for your company
   image: 2021/10/support.jpg
 images: # relative to /src/assets/images/
   feature: 2021/10/support.jpg

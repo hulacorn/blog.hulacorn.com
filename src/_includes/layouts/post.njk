@@ -2,59 +2,105 @@
 layout: base
 ---
 <script async data-uid="69c69de359" src="https://hulacorn.ck.page/69c69de359/index.js"></script>
-  <h1 class="{{ colors.headingsCustom or colors.headingsDefault }}">{{ seo.title or title }}</h1>
-  <div class="text-sm {{ colors.authorCustom.date or colors.authorDefault.date}}">
-    <time datetime="{{ date | dateToFormat("yyyy-MM-dd") }}">
-      {{ date | dateToFormat("dd LLL yyyy") }}
-    </time>
-    {# Global disable author display in /src/_data/structure.js #}
-    {% if structure.g_showAuthors %}
-      {# Only display the Author Block if there is a value for "author" in Post Frontmatter #}
-      {% if author %}
-        {% set postAuthor = authors | getAuthor(author) %}
-        by <a class="hover:underline" href="/authors/{{ author }}/">{{ postAuthor.name }}</a>
-      {% endif %}
+<header class="relative pt-4 z-10 md:py-10 lg:py-10 bg-neutral-900 dark:bg-black">
+  <div class="dark container relative z-10">
+    <div class="max-w-screen-md">
+      <div class="nc-SingleHeader ">
+        <div class="space-y-5">
+          <div class="nc-CategoryBadgeList flex flex-wrap space-x-2">
+            {% if structure.g_showTagPills or structure.g_showSocialShareIcons %}
+              <div class="md:justify-between md:items-start md:flex md:flex-row">
+                {# If you don't want to display the Tag Pills, set "false" in /src/_data/structure.js #}
+                <div>
+                  {% if structure.g_showTagPills %}
+                    {% include "components/tagpills.njk" %}
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+         <h1 class="text-neutral-900 font-semibold text-3xl md:text-4xl md:!leading-[120%] lg:text-5xl dark:text-neutral-100 max-w-4xl {{ colors.headingsCustom or colors.headingsDefault }}">{{ seo.title or title }}</h1>
+         <p class="text-neutral-900 font-semibold text-sm md:text-sm md:!leading-[120%] lg:text-sm dark:text-neutral-100 max-w-4xl {{ colors.headingsCustom or colors.headingsDefault }}">{{ seo.description or description }}</p>
+         
+         <div class="w-full border-b border-neutral-100 dark:border-neutral-800"></div>
+          <div class="flex flex-col sm:flex-row justify-between sm:items-end space-y-5 sm:space-y-0 sm:space-x-5">
+            <div class="flex items-center flex-wrap text-neutral-700 text-left dark:text-neutral-200 text-sm leading-none flex-shrink-0">
+              <div class="ml-3">
+                <div class="flex items-center">
+                  {# Global disable author display in /src/_data/structure.js #}
+                  {% if structure.g_showAuthors %}
+                    {# Only display the Author Block if there is a value for "author" in Post Frontmatter #}
+                    {% if author %}
+                      {% set postAuthor = authors | getAuthor(author) %}
+                      <a class="hover:underline" href="/authors/{{ author }}/">{{ postAuthor.name }}</a>
+                    {% endif %}
+                  {% endif %}
+
+                </div>
+                <div class="text-xs mt-[6px]">
+                  <time datetime="{{ date | dateToFormat("yyyy-MM-dd") }}">
+                    {{ date | dateToFormat("dd LLL yyyy") }}
+                  </time>
+                </div>
+              </div>
+              <div class="">
+                <div class="flex flex-row space-x-2.5 items-center">
+                  <div class="flex items-center space-x-2 !space-x-2.5"></div>
+
+                  <div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-8 md:mt-0 md:absolute md:top-0 md:right-0 md:bottom-0 md:w-1/2 lg:w-2/5 2xl:w-1/3">
+      <div class="hidden md:block absolute top-0 left-0 bottom-0 w-1/5 from-neutral-900 dark:from-black bg-gradient-to-r"></div>
+      <img class="block w-full h-full object-cover" src={% if images.thumb %}"/assets/images/{{ images.thumb }}"{% else %}"/assets/images/lost.jpg"{% endif %} alt=""></div>
+  </header>
+
+  <div class="max-w-5xl mx-auto px-2 space-y-5">
+
+    {{ layoutContent | safe }}
+
+    {% if structure.g_showTagPills or structure.g_showSocialShareIcons %}
+      <div class="pt-4 mt-12 border-t md:justify-between md:items-start md:flex md:flex-row">
+
+        {# If you don't want to display the Tag Pills, set "false" in /src/_data/structure.js #}
+        <div class="md:w-1/2">
+          {% if structure.g_showTagPills %}
+            {% include "components/tagpills.njk" %}
+          {% endif %}
+        </div>
+
+        {# If you don't want to display Social Share icons, disable them in /src/_data/structure.js  #}
+        <div class="px-2 pt-6 md:pt-2 md:w-1/2 md:flex md:justify-end">
+          {% if structure.g_showSocialShareIcons %}
+            {% include "components/socialshare.njk" %}
+          {% endif %}
+        </div>
+
+      </div>
     {% endif %}
 
-  </div>
+    {# ===== Previous and Next =====  #}
+    <div class="border-t mt-4 pt-4 {{ colors.borderCustom.color or colors.borderDefault.color }} md:flex-row md:flex md:justify-between">
+      {% set previousPost = collections.post | getPreviousCollectionItem(page) %}
+      {% set nextPost = collections.post | getNextCollectionItem(page) %}
 
-  {{ layoutContent | safe }}
-
-  {% if structure.g_showTagPills or structure.g_showSocialShareIcons %}
-    <div class="pt-4 mt-12 border-t md:justify-between md:items-start md:flex md:flex-row">
-
-      {# If you don't want to display the Tag Pills, set "false" in /src/_data/structure.js #}
-      <div class="md:w-1/2">
-        {% if structure.g_showTagPills %}
-          {% include "components/tagpills.njk" %}
+      <div class="py-2 text-center sm:py-0">
+        {% if previousPost %}
+          <a class="{{ colors.prevNextCustom.text or colors.prevNextDefault.text }} hover:{{ colors.prevNextCustom.text or colors.prevNextDefault.textHover }}" href="{{ previousPost.url }}">← {{ previousPost.data.title }}</a>
         {% endif %}
       </div>
 
-      {# If you don't want to display Social Share icons, disable them in /src/_data/structure.js  #}
-      <div class="px-2 pt-6 md:pt-2 md:w-1/2 md:flex md:justify-end">
-        {% if structure.g_showSocialShareIcons %}
-          {% include "components/socialshare.njk" %}
+      <div class="py-2 text-center sm:py-0">
+        {% if nextPost %}
+          <a class="{{ colors.prevNextCustom.text or colors.prevNextDefault.text }} hover:{{ colors.prevNextCustom.text or colors.prevNextDefault.textHover }}" href="{{ nextPost.url }}">{{ nextPost.data.title }} →</a>
         {% endif %}
       </div>
 
-    </div>
-  {% endif %}
-
-  {# ===== Previous and Next =====  #}
-  <div class="border-t mt-4 pt-4 {{ colors.borderCustom.color or colors.borderDefault.color }} md:flex-row md:flex md:justify-between">
-    {% set previousPost = collections.post | getPreviousCollectionItem(page) %}
-    {% set nextPost = collections.post | getNextCollectionItem(page) %}
-
-    <div class="py-2 text-center sm:py-0">
-      {% if previousPost %}
-        <a class="{{ colors.prevNextCustom.text or colors.prevNextDefault.text }} hover:{{ colors.prevNextCustom.text or colors.prevNextDefault.textHover }}" href="{{ previousPost.url }}">← {{ previousPost.data.title }}</a>
-      {% endif %}
-    </div>
-
-    <div class="py-2 text-center sm:py-0">
-      {% if nextPost %}
-        <a class="{{ colors.prevNextCustom.text or colors.prevNextDefault.text }} hover:{{ colors.prevNextCustom.text or colors.prevNextDefault.textHover }}" href="{{ nextPost.url }}">{{ nextPost.data.title }} →</a>
-      {% endif %}
     </div>
 
   </div>

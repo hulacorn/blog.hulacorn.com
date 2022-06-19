@@ -5,15 +5,15 @@ author: podge-obrien
 excerpt: The erosion of best practices and good disciplines in software development causes the creation of poor software.
 draft:
 seo:
-  title:
-  description:
+  title: There are no shortcuts in software engineering
+  description: The erosion of best practices and good disciplines in software development causes the creation of poor software.
   image: 2022/01/shortcut.jpg
 images: # relative to /src/assets/images/
   feature: 2022/01/shortcut.jpg
   thumb: 2022/01/shortcut.jpg
   slide:
 tags:
-  - Software engineering
+  - Software-engineering
   - Management
 
 ---

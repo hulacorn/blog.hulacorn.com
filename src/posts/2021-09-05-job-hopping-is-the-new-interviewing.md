@@ -5,8 +5,8 @@ author: podge-obrien
 excerpt: It's not job-hopping. It's job trying.
 draft:
 seo:
-  title:
-  description:
+  title: Job hopping is the new way to interview.
+  description:  It's not job-hopping. It's job trying.
   image: 2021/09/interview.jpg
 images: # relative to /src/assets/images/
   feature: 2021/09/interview.jpg

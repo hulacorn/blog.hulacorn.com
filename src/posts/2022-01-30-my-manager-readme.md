@@ -5,8 +5,8 @@ author: podge-obrien
 excerpt: When I start working with someone new, I like to have a conversation to align our expectations of each other.
 draft:
 seo:
-  title:
-  description:
+  title: My Manager Readme
+  description: When I start working with someone new, I like to have a conversation to align our expectations of each other.
   image: 2022/03/readme.jpg
 images: # relative to /src/assets/images/
   feature: 2022/03/readme.jpg

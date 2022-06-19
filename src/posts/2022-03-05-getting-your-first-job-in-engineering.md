@@ -5,8 +5,8 @@ author: podge-obrien
 excerpt: Give value to the people you want to work with and get the job you want.
 draft:
 seo:
-  title:
-  description:
+  title: Getting your first job in engineering
+  description: Give value to the people you want to work with and get the job you want.
   image: 2022/03/interview.jpg
 images: # relative to /src/assets/images/
   feature: 2022/03/interview.jpg

@@ -26,21 +26,21 @@
       {#  Allows a user to easily change the Hero type on the Home page...or any page.
           See /src/home.md for how to use. 
       #}
-      {% if hero %}
+      {# {% if hero %}
         {% set heroComponent = ['components/hero-', hero, '.njk'] %}
         {% include heroComponent | join %}
-      {% endif %}
+      {% endif %} #}
 
       {# If any frontmatter includes images.feature, insert it at the top of the page, 
       below the nav and outside the default wrapper below. #}
-      {% if images.feature %}
+      {# {% if images.feature %}
         <figure class="w-screen {{ images.height or "h-48 md:h-1/3" }}">
           <img class="object-cover {{ images.align }} w-full h-full" src="{{ images.feature if 'http' in images.feature else "/assets/images/" + images.feature }}" alt="{{ title }}">
         </figure>
-      {% endif %}
+      {% endif %} #}
 
       <div class="flex-grow max-w-full">
-        <main class="block py-12" id="content">
+        <main class="block " id="content">
           {{ content | safe }}
         </main>
       </div>

@@ -1,12 +1,12 @@
 ---
-title: What is it like to apply for a job as a graduat
+title: What is it like to apply for a job as a graduate
 date: 2021-06-05T19:30:00
 author: podge-obrien
 description: I wanted to see what it was like and how long it took to get a job as a graduate in pandemic times, here are the results
 draft:
 seo:
-  title:
-  description:
+  title: What is it like to apply for a job as a graduate
+  description: I wanted to see what it was like and how long it took to get a job as a graduate in pandemic times, here are the results
   image: 2021/05/graduates.jpg
 images: # relative to /src/assets/images/
   feature: 2021/05/graduates.jpg
@@ -14,7 +14,7 @@ images: # relative to /src/assets/images/
   slide:
 tags:
   - Graduate
-  - First Job
+  - First-job
   - Career
 
 ---

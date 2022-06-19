@@ -5,8 +5,8 @@ author: podge-obrien
 excerpt: Starting a business is hard, it involves a lot, Marketing is one of those things
 draft:
 seo:
-  title:
-  description:
+  title: Engineers getting started on marketing
+  description: Starting a business is hard, it involves a lot, Marketing is one of those things
   image: 2022/04/marketing.jpg
 images: # relative to /src/assets/images/
   feature: 2022/04/marketing.jpg
@@ -16,7 +16,7 @@ images: # relative to /src/assets/images/
 tags:
   - Startup
   - Mrketing
-  - Indie hacker
+  - Indie-hacker
 
 ---
 <br>

@@ -5,17 +5,17 @@ author: podge-obrien
 excerpt: Lots of companies build their own Internal Developer Platform, I have an open sourced a list of mine and articles about them
 draft:
 seo:
-  title:
-  description:
+  title: Awesome Internal Developer Platforms
+  description: Lots of companies build their own Internal Developer Platform, I have an open sourced a list of mine and articles about them
   image: 2021/12/platform.jpg
 images: # relative to /src/assets/images/
   feature: 2021/12/platform.jpg
   thumb: 2021/12/platform.jpg
   slide:
 tags:
-  - Developer tools
-  - Internal Developer Platform
-  - Software engineering
+  - Developer-tools
+  - Internal-developer-platform
+  - Software-engineering
 
 ---
 

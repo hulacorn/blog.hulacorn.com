@@ -5,8 +5,8 @@ author: podge-obrien
 excerpt: Instead of side projects, contributing to open-source can do more for your CV
 draft:
 seo:
-  title:
-  description:
+  title: Contribute to open source to get your first job
+  description: Instead of side projects, contributing to open-source can do more for your CV
   image: 2021/09/trend.jpg
 images: # relative to /src/assets/images/
   feature: 2021/09/trend.jpg

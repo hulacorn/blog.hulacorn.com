@@ -5,17 +5,17 @@ author: podge-obrien
 excerpt: How queues affect the throughput of software teams.
 draft:
 seo:
-  title:
-  description:
+  title: An Introduction to queuing theory in software development.
+  description: How queues affect the throughput of software teams.
   image: 2021/11/queue.jpg
 images: # relative to /src/assets/images/
   feature: 2021/11/queue.jpg
   thumb: 2021/11/queue.jpg
   slide:
 tags:
-  - Developer tools
-  - Internal Developer Platform
-  - Software engineering
+  - Developer-tools
+  - Internal-developer-platform
+  - Software-engineering
 
 ---
 

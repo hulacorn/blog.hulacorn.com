@@ -5,8 +5,8 @@ author: podge-obrien
 excerpt: Measuring performance using Core Web Vitals and Datadog Real User monitoring feature.
 draft:
 seo:
-  title:
-  description:
+  title: How to measure your website performance
+  description: Measuring performance using Core Web Vitals and Datadog Real User monitoring feature.
   image: 2022/04/performance.jpg
 images: # relative to /src/assets/images/
   feature: 2022/04/performance.jpg
