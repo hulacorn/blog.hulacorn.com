@@ -53,8 +53,8 @@ jobs:
         run: aws s3 sync . s3://blog.hulacorn.com --acl public-read
         working-directory: hulacorn-blog
   cloudfront:
-      - name: Invalidate Cache
-      steps:
+    runs-on: ubuntu-latest
+    steps:
         - uses: actions/checkout@master
         - uses: awact/cloudfront-action@master
           env:
