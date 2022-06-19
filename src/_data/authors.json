@@ -65,6 +65,25 @@
 				"url": "https://twitter.com/gbinside"
 			}
 		]
+	},
+	{
+		"slug": "grace-wilkes",
+		"name": "Grace Wilkes",
+		"image": "/assets/images/authors/grace.png",
+		"bio": "This is my Bio",
+		"companyWebsites": [
+			
+		],
+		"personalWebsites": [
+			
+		],
+		"socialWebsites": [
+			
+			{
+				"label": "linkedin",
+				"url": "https://www.linkedin.com/in/grace-w-b5555762/"
+			}
+		]
 	}
 	
 ]
