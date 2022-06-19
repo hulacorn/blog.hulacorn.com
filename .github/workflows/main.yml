@@ -54,6 +54,7 @@ jobs:
         working-directory: hulacorn-blog
   cloudfront:
     runs-on: ubuntu-latest
+    needs: deploy
     steps:
         - uses: actions/checkout@master
         - uses: awact/cloudfront-action@master
