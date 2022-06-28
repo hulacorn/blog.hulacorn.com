@@ -85,5 +85,24 @@
 			}
 		]
 	}
-	
+	,
+	{
+		"slug": "adam-mann",
+		"name": "Adam Mann",
+		"image": "/assets/images/authors/adam.jpeg",
+		"bio": "Former librarian turned software engineer. When I'm not tinkering in Python, you can find me at the climbing gym, or in my kitchen with my nose in a cookbook.",
+		"companyWebsites": [
+			
+		],
+		"personalWebsites": [
+			
+		],
+		"socialWebsites": [
+			
+			{
+				"label": "linkedin",
+				"url": "https://www.linkedin.com/in/adam-e-mann/"
+			}
+		]
+	}
 ]
