@@ -53,7 +53,7 @@ Is my code immediately purged from the server it ran on? No, it is kept for some
 Is your code running alongside other people’s code in the same physical machine? Yes
 Security is better now. The Linux kernel got better, and the jailing of the process now works better. Docker is helping a lot.
 
-Similarities and differences
+# Similarities and differences
 - You can already see a lot of similarities, but let’s recap them:
 - You can focus on writing your code
 - You deploy your code by uploading it somewhere for some languages, without compiling it
