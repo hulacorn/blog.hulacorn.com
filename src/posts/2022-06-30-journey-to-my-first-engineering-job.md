@@ -1,7 +1,7 @@
 ---
 title: The journey to my first engineering job
 date: 2022-06-30T17:44:03.000Z
-excerpt: From Atalanta to Korea to Virginia, this is how I got into my first software engineering job.
+excerpt: From Atlanta to Korea to Virginia, this is how I got into my first software engineering job.
 author: grace-wilkes
 draft: 
 seo:
