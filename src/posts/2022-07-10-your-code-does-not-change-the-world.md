@@ -3,7 +3,7 @@ title: Your code doesn't have to change the world.
 date: 2022-07-10T17:44:03.000Z
 excerpt: An article that walks through initial interest, research, and execution of a simple, somewhat useless Python/Selenium bot.
 author: adam-mann
-draft: 
+draft: true
 seo:
   title:  Your code doesn't have to change the world.
   description: An article that walks through initial interest, research, and execution of a simple, somewhat useless Python/Selenium bot.
