@@ -18,7 +18,7 @@ tags:
   - tutorial
 ---
 
-## Roberto first of many short videos on python and engineering
+## Roberto's simple code to draw fractals with the python turtle inside colab
 
 <br>
 <br>
