@@ -55,6 +55,7 @@ With most projects, I first try to get a very small thing to work, then I usuall
 My first step was getting the game's start button from the DOM and figuring out the syntax for sending key presses. My first lines of code looked something like this:
 
 ```python
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -66,6 +67,7 @@ container = driver.find_element(by=By.TAG_NAME, value='html')
 start = driver.find_element(by=By.CLASS_NAME, value='restart-button')
 start.click()
 container.send_keys(Keys.ARROW_RIGHT)
+
 ```
 
 After the page loaded, I could see the tiles shift to the right! This was my starting point. Once I had that, I completed a hard-coded game loop that sends a key press, checks for game over, and prints a score at the end of the game loop. I made notes to myself on what to add and what to functionize. The rest of the code ended up looking like this:

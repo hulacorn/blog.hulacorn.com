@@ -20,19 +20,18 @@ tags:
 
 ## Introduction
 
-Creating software is complex, and defining requirements is challenging. In 20 years of working, I have observed that engineers have never been in a place where they have all the requirements to build a product. The folks responsible for defining the requirements struggle to communicate or don't know(not knowing is ok, we are human). Once it is specified, the first question is when will the feature be in production. The end-to-end process is broken.
+The process of creating software can be complex. There are many moving parts. In 20+ years of working, I have observed that engineers sometimes live in a system where many constraints, requirements and ways of working are unrelated to coding and building products. My favourite is the "estimation game", where you spend hours and weeks guessing when something will be done through various ceremonies. There are [many articles](http://noestimates.org/blog/) on why this approach of guessing when a feature will be in production does not work.
 
 # Votes.hulacorn.com
 
-It is why many of our ideas on votes.Hulacorn.com are focused on helping engineers have a better time at work. We are running an experiment on this site where folks can vote for their problems. Two of the top three were around requirements gathering, and once you have the requirements, when will you be done?
-
+Many of our ideas on votes.Hulacorn.com are focused on helping engineers have a better time at work. We are running an experiment on this site where folks can vote for their problems. 
 We received 172 votes across all our ideas in the last three months.
 
 <br> ![Hulacorn Votes](../../../../assets/images/2022/07/votes.png)
 
 # Results
 
-We decided to narrow our focus more here at Hulacorn to try solving the problem of estimating when the software will be complete and getting better at gathering requirements. Why these two, We see them as being tightly coupled. The theory goes that the higher quality of the requirements, the more predictable it will be to forecast the completion date.
+The top-voted problem was people wanted to stop estimating features. Knowing this, we have decided to narrow our focus more here at Hulacorn and solve the problem of calculating when the software will be in production. 
 
 # Epilogue 
 We will continue building in public, sharing what we learn. 
