@@ -1,11 +1,11 @@
 ---
-title: Engineers spend too much time figuring out requirements
+title: Building Hulacorn in public update
 date: 2022-07-09T17:44:03.000Z
 excerpt: We aim to help how engineers can get better at creating software.
 author: podge-obrien
 draft: 
 seo:
-  title:  Engineers spend too much time figuring out requirements
+  title:  Building Hulacorn in public update
   description: We aim to help how engineers can get better at creating software.
 images: # relative to /src/assets/images/
   feature:
