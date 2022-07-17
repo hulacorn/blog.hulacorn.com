@@ -87,7 +87,7 @@ for i in range(4):
     # TODO: functionize start cycle
     start = driver.find_element(by=By.CLASS_NAME, value='restart-button')
     start.click()
-    while game_over == False:
+    while not game_over:
         # TODO: functionize (and maybe randomize) key entries. consider adding a small sleep between each key press
         container.send_keys(Keys.ARROW_RIGHT)
         container.send_keys(Keys.ARROW_DOWN)
@@ -115,19 +115,20 @@ The code above would run and play out a set number of rounds, but I wanted the f
 - I wanted the bot to be able to loop for a set number of rounds using command line arguments (or infinitely if no arguments were specified). If the user enters a number, the game will loop for that number of rounds. Otherwise, it will play forever:
 
 ```python
- def game_loop(self):
+   def game_loop(self):
         try:
             if self.rounds:
                 for _ in range(self.rounds):
                     self._round_loop()
             # infinite game loop     
             else:
-                for _ in count(0):
+                while True:
                     self._round_loop()
             self.driver.quit()
         except:
             self.driver.quit()
             print('Game stopped!')
+
 ```
 
 - Because Selenium is extremely quick in how it manipulates the browser, I gave the user the option to set the speed of the game when the program started:
