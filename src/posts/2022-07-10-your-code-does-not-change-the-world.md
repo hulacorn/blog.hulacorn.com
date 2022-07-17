@@ -87,7 +87,7 @@ for i in range(4):
     # TODO: functionize start cycle
     start = driver.find_element(by=By.CLASS_NAME, value='restart-button')
     start.click()
-    while game_over == False:
+    while not game_over:
         # TODO: functionize (and maybe randomize) key entries. consider adding a small sleep between each key press
         container.send_keys(Keys.ARROW_RIGHT)
         container.send_keys(Keys.ARROW_DOWN)
@@ -122,7 +122,7 @@ The code above would run and play out a set number of rounds, but I wanted the f
                     self._round_loop()
             # infinite game loop     
             else:
-                for _ in count(0):
+                while True:
                     self._round_loop()
             self.driver.quit()
         except:
