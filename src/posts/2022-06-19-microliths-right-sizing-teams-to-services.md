@@ -93,7 +93,7 @@ At the end of this process, there will be some micro-services without the need f
 If the orders microservice needs some user data, the orders service will call an API on the user microservice. This way, the user microservice can handle the cache with its logic.
 
 # Microservices madness.
-<br> ![what is a monolith](../../../../assets/images/2022/06/4.svg)
+<br> ![what is a monolith](../../../../assets/images/2022/06/4b.svg)
 The microservice pattern is going too far. The last extreme has a microservice that handles only one API request, like a single endpoint.
 
 Now add to the scenario that the company has a limited number of engineers and teams. A team now has to handle multiple microservices. The onboarding is longer. More credentials are needed, and pipelines could be different and thus imply more onboarding time.
