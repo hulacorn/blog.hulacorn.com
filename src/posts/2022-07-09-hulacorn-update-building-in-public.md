@@ -31,7 +31,7 @@ We received 172 votes across all our ideas in the last three months.
 
 # Results
 
-The top-voted problem was people wanted to stop estimating features. Knowing this, we have decided to narrow our focus more here at Hulacorn and solve the problem of calculating when the software will be in production. 
+In the top-voted problem, people wanted to stop estimating features and manage one-to-one with their staff. We flipped a coin on which one to try and solve first. We have decided to solve the problem of calculating when the software will be in production without using estimates. 
 
 # Epilogue 
 We will continue building in public, sharing what we learn. 
