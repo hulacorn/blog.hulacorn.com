@@ -1,6 +1,6 @@
 ---
 title: How to drive away your best engineers.
-date: 2021-09-08T19:30:00
+date: 2020-09-08T19:30:00
 author: podge-obrien
 excerpt: Tenures are at an all-time low in the software industry.
 draft:
@@ -19,7 +19,7 @@ tags:
 
 # Introduction
 
-Based on exit interviews I have done over the years, here is a list of reasons, and possible fixes, on why engineers leave their jobs. And while no one example below is a flip the table thing, over time, it will grind people down until they see no hope and leave.
+Based on exit interviews I and friends who are also managers have done over the three years here is a list of reasons, and possible fixes, on why engineers leave their jobs. And while no one example below is a flip the table thing, over time, it will grind people down until they see no hope and leave.
 
 # Hire managers that cannot build software
 
