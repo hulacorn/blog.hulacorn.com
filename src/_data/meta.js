@@ -1,6 +1,6 @@
 module.exports = {
 	// siteURL: process.env.URL || 'http://localhost:8080',
-	siteURL: "https://blog.hulacorn.com" || 'http://localhost:8080',
+	siteURL: "https://blog.hulacorn.com",
 	siteName: 'Hulacorn Blog',
 	siteDescription:
 		'Welcome to our blog where we write about all things Web development, operations and management.',
