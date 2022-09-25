@@ -45,7 +45,10 @@ The last time i took a screen shot it was at 230k views with lots of interesting
 
 ## Getting to the front page of Hacker News
 
-I have been talking about Reddit so far. The reason is that this is how I got to the Hacker news front page. The post got picked up by a scraper and posted on hacker news, where I reached the front page. I got to number nine on the front page. As of today, the stats are
+I have been talking about Reddit so far. The reason is that this is how I got to the Hacker news front page. The post got picked up by a scraper and posted on hacker news, where I reached the front page. I got to number nine on the front page.
+<br> ![Hacker News Statistics ](../../../../assets/images/2022/09/frontpageofhackernews.png)
+
+As of today, the stats are
 Again with lots of comments.
 
 <br> ![Hacker News Statistics ](../../../../assets/images/2022/09/hacker_news_stats.png)
